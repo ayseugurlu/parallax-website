@@ -1,44 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Courgette&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    color: white;
+body,html{
+    color: rgb(1, 1, 1);
+    height: 100%;
+    opacity: 0.9;
+    
+    
 }
 
 .backround-container-image1{
-    width: 100%;
+    height: 100%;
     min-height: 500px;
-    background-image: url(./img/bg1.jpg) ;
+    background-image: url(./images-antakya/hatay-sofrasi.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    
+    
 
 }
 
 .heading-container{
+    text-align: center;
     position: relative;
-    top: 250px;
-    left: 50vh;
-    width: 350px;
-    height: 100px;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border: 1rem inset rgb(128, 0, 128);
+    top: 50%;
+    font-family: "Courgette", cursive;
+    font-size: 1.5rem;
+    
 
 }
 
-.heading-container-title1{
-    background-color: #4C4C4C;
-    font-family: sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    padding: 10px;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border: 1rem inset white;
+.heading-container-title{
+    
+    background-color: #c0bfbf80;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-top-left-radius: 1rem;border-bottom-right-radius: 1rem;
+    outline: 0.4rem inset rgb(34, 193, 199);
+    outline-offset: 5px;
     line-height: 2.5rem;
     letter-spacing: 3px;
+    
 }
+
+.section-light{
+    background-color: #ebd39f ;
+    color: #0f0d0d;
+    line-height: 29px;
+    text-align: center;
+    padding: 3.5rem 5rem;
+    font-family: "Courgette", cursive;
+    font-size: 1.2rem;
+
+}
+
+
+.backround-container-image2{
+    height: 80%;
+    min-height: 500px;
+    background-image: url(./images-antakya/hatay-tepsi-kebabi.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.backround-container-image3{
+    height: 80%;
+    min-height: 500px;
+    background-image: url(./images-antakya/taze_zahter_salatasi_tarifi-640x445.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.section-dark{
+    background-color:#e6be50ed ;
+    color: #170606;
+    line-height: 2rem;
+    text-align: center;
+    padding: 3.5rem 5rem;
+    font-size: 1.2rem;
+    font-family: "Courgette", cursive;
+
+}
+
+.backround-container-image4{
+    height: 80%;
+    min-height: 500px;
+    background-image: url(./images-antakya/lezzet-kunefe-antakya_1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.backround-container-image5{
+    height: 100%;
+    min-height: 500px;
+    background-image: url(./images-antakya/2023-06-28-14-23-15-1536x1536.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+
+}
+
+
